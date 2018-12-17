@@ -1,2 +1,2 @@
-# impulsewebdesig
+# impulsewebdesing
 Website for my Idea
