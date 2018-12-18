@@ -1,0 +1,53 @@
+[
+	{
+		"name":"Nombre de la Plantilla 1",
+		"price": 10,
+		"author":"David Gonzalez",
+		"tags":[
+			"landing page",
+			"busquedas",
+			"hoteles"
+		]
+	},
+	{
+		"name":"Nombre de la Plantilla 2",
+		"price": 50,
+		"author":"David Gonzalez",
+		"tags":[
+			"emails",
+			"flat design",
+			"marketing"
+		]
+	},
+	{
+		"name":"Nombre de la Plantilla 3",
+		"price": 25,
+		"author":"David Gonzalez",
+		"tags":[
+			"flat design",
+			"react",
+			"landing page"
+		]
+	},
+	{
+		"name":"Nombre de la Plantilla 4",
+		"price": 90,
+		"author":"David Gonzalez",
+		"tags":[
+			"vue",
+			"html",
+			"css"
+
+		]
+	},
+	{
+		"name":"Nombre de la Plantilla 5",
+		"price": 100,
+		"author":"David Gonzalez",
+		"tags":[
+			"javascript",
+			"react",
+			"html"
+		]
+	}
+]

@@ -1,0 +1,340 @@
+#cover{
+    width: 100%;
+    background: green;
+    height: 100px
+}
+#nav-bar{
+    width: 92%;
+    background: white;
+    height: 30px;
+    padding: 20px 4%;
+    z-index: 2;
+    position: fixed;
+    box-shadow: 1px 0 6px black;
+}
+#nav-bar div.container{
+    width: 100%;
+    height: 100%;
+}
+#nav-bar div.container span div:first-child{
+    margin: 5px 0 0 10px;
+}
+#nav-bar div.container span div:last-child{
+    margin: 5px 10px 0 0;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    top:0;
+    background: #43A047;
+    transition: .5s ease;
+        z-index: 3;
+    position: fixed;
+    box-shadow: 0 1px 6px black;
+
+}
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    display: block;
+    padding: 20px 50px;
+    background: #43A047;
+    margin: 10px auto;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #81C784;
+    color: rgb(66,66,66);
+    transition: .5s ease;
+}
+nav ul li:hover > a{
+    color: rgb(66,66,66);
+    transition: .5s ease;
+}
+
+nav ul li a{
+    display: block;
+    overflow: hidden;
+    color: rgba(255,255,255,.87);
+    text-decoration: none;
+    width: 100%;
+    margin: -20px -50px;
+    padding: 20px 50px;
+    height: 100%;
+}
+
+nav ul li:nth-child(2){
+    background: rgba(0, 0, 0, 0) ;
+    cursor: default;
+}
+nav ul li:nth-child(2) img{
+    cursor: pointer;
+}
+#header-nav{
+    cursor: default;
+    padding: 100px 50px;
+    color: rgb(39, 39, 39);
+    background: #087f23;
+}
+#header-nav div{
+    font-family: helvetica;
+    width: 100%;
+    height: 100%;
+}
+#header-nav div h1{
+    color:black;
+    margin-top: -80px;
+}
+#header-nav div h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+div.pull-right a{
+    border: solid 2px #087f23;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #087f23;
+}
+#img-menu{
+    margin-top: -92px;
+    width: 120px;
+    position: relative;
+}
+#logoMenu {
+    margin:-20px auto 0 auto;
+    width: 70px;
+    text-align: center;
+}
+#shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, .6)
+}
+/*Clases*/
+.img-circle{
+    border-radius: 50%;
+}
+.activeClick{
+    background: #81C784;
+    color: rgb(66,66,66)
+}
+.shadowShow{
+    display: block;
+    opacity: 1;
+    animation: fade-show ease .6s forwards;
+}
+.shadowHide{
+    display: none;
+    opacity: 0;
+    animation: fade-hide ease 1s forwards;
+
+}
+.flecha{
+    margin-top:-15px; 
+    font-size: 40px;
+    cursor: pointer;
+    color: #087f23;
+}
+.pull-right{
+    float: right !important;
+}
+.pull-left{
+    float: left !important;
+}
+.separador{
+    border: black solid 1px;
+    height: 20px;
+    margin-top: 2.5px
+}
+
+
+@media screen and (min-width:480px){
+    #cover{
+    width: 100%;
+    background: green;
+    height: 100px
+}
+#nav-bar{
+    width: 92%;
+    background: white;
+    height: 30px;
+    padding: 20px 4%;
+    z-index: 2;
+    position: fixed;
+    box-shadow: 1px 0 6px black;
+}
+#nav-bar div.container{
+    width: 100%;
+    height: 100%;
+}
+#nav-bar div.container span div:first-child{
+    margin: 5px 0 0 10px;
+}
+#nav-bar div.container span div:last-child{
+    margin: 5px 10px 0 0;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    text-align: center;
+    height: 100%;
+    width: 25%;
+    top:0;
+    background: #43A047;
+    transition: .5s ease;
+        z-index: 3;
+    position: fixed;
+    box-shadow: 0 1px 6px black;
+
+}
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+    display: block;
+    padding: 20px 50px;
+    background: #43A047;
+    margin: 10px auto;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #81C784;
+    color: rgb(66,66,66);
+    transition: .5s ease;
+}
+nav ul li:hover > a{
+    color: rgb(66,66,66);
+    transition: .5s ease;
+}
+
+nav ul li a{
+    display: block;
+    overflow: hidden;
+    color: rgba(255,255,255,.87);
+    text-decoration: none;
+    width: 100%;
+    margin: -20px -50px;
+    padding: 20px 50px;
+    height: 100%;
+}
+
+nav ul li:nth-child(2){
+    background: rgba(0, 0, 0, 0) ;
+    cursor: default;
+}
+nav ul li:nth-child(2) img{
+    cursor: pointer;
+}
+#header-nav{
+    cursor: default;
+    padding: 100px 50px;
+    color: rgb(39, 39, 39);
+    background: #087f23;
+}
+#header-nav div{
+    font-family: helvetica;
+    width: 100%;
+    height: 100%;
+}
+#header-nav div h1{
+    color:black;
+    margin-top: -80px;
+}
+#header-nav div h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+div.pull-right a{
+    border: solid 2px #087f23;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #087f23;
+}
+#img-menu{
+    margin-top: -92px;
+    width: 120px;
+    position: relative;
+}
+#logoMenu {
+    margin:-20px auto 0 auto;
+    width: 70px;
+    text-align: center;
+}
+#shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, .6)
+}
+/*Clases*/
+.img-circle{
+    border-radius: 50%;
+}
+.activeClick{
+    background: #81C784;
+    color: rgb(66,66,66)
+}
+.shadowShow{
+    display: block;
+    opacity: 1;
+    animation: fade-show ease .6s forwards;
+}
+.shadowHide{
+    display: none;
+    opacity: 0;
+    animation: fade-hide ease 1s forwards;
+
+}
+.flecha{
+    margin-top:-15px; 
+    font-size: 40px;
+    cursor: pointer;
+    color: #087f23;
+}
+.pull-right{
+    float: right !important;
+}
+.pull-left{
+    float: left !important;
+}
+.separador{
+    border: black solid 1px;
+    height: 20px;
+    margin-top: 2.5px
+}
+}
+@keyframes fade-show {
+    from{
+        display: none;
+        opacity: 0;
+    }
+    to{
+        display: block;
+        opacity: 1;
+    }
+}
+@keyframes fade-hide {
+    to{
+        display: block;
+        opacity: 1;
+    }   
+    from{
+        display: none;
+        opacity: 0;
+    }
+}

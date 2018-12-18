@@ -1,0 +1,47 @@
+#store-header-main {
+	text-align: center;
+}
+#store-header-main h1,
+#store-header-main h2{
+	color: white;
+	margin: 30px auto 70px auto;
+}
+#store-header-background {
+	padding: 30px 0;
+	height: 440px;
+	background-size: 770px;
+	background-position: center;
+}
+#storeSearchButton{
+	background: none;
+	border-radius: 100px;
+	border:2px #087f23 solid;
+	color: white;
+	font-size: 18px;
+	height: 30px;
+	width: 100px;
+	cursor: pointer;
+
+	transition: ease .3s;
+}
+#storeSearchButton:hover {
+	background: #087f23;
+}
+@media screen and (min-width: 480px){
+	#store-header-main h1{
+		margin: 50px auto 80px auto;
+	}
+	#store-header-main h2{
+		margin: 80px auto 80px auto;
+	}
+}
+@media screen and (min-width: 767px){
+	#store-header-background {
+		background-size: 980px;
+	}
+}
+@media screen and (min-width: 980px){
+		#store-header-background {
+			background-size:cover;
+		}
+}

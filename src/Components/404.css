@@ -1,0 +1,27 @@
+#not-found-container {
+	text-align: center;
+	width:50%;
+	background: white;
+	margin: 10% auto 10px auto;
+	padding: 50px 0 30px 0;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+} 
+#not-found-container h1{
+	color: rgba(100,100,100,.5);
+	font-size: 90px;
+	margin: 0 auto 50px auto;
+	font-weight: 600;
+}
+#not-found-container span {
+	display: block;
+}
+#not-found-container img {
+	margin-top:20px;
+}
+#not-found-container a {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	color:rgb(33, 137, 126);
+	margin: 30px auto 0 auto;
+}

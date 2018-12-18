@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "deep-extend": "^0.5.1",
+    "hoek": "^5.0.3",
+    "muicss": "^0.9.39",
+    "radium": "^0.24.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-icons": "^2.2.7",
+    "react-router-dom": "^4.2.2",
+    "react-script": "^2.0.5",
+    "react-scripts": "^1.1.4",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
