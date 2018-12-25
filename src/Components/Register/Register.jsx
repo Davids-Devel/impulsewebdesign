@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Register.css";
 import  Input  from "muicss/lib/react/input";
-import { MdLockOutline, MdMail, MdAccountCircle } from "react-icons/lib/md";
+import { MdLockOutline, MdMail, MdAccountCircle } from "react-icons/md";
 import { PropTypes } from "prop-types";
 import Toast from "../Widgets/Toast";
 import store from "../../Store/store";

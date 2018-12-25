@@ -5,7 +5,7 @@ import store from "../../Store/store";
 import {login} from "../../Store/actionCreators";
 import  Input  from "muicss/lib/react/input";
 import { PropTypes } from "prop-types";
-import { MdEmail, MdLockOutline } from "react-icons/lib/md";
+import { MdEmail, MdLockOutline } from "react-icons/md";
 import Toast from "../Widgets/Toast";
 
 class Login extends Component{
@@ -26,11 +26,6 @@ class Login extends Component{
 	static childContextTypes = {
 		reactIconBase: PropTypes.object
 	};
-	componentWillMount(){
-		this.setState({
-			app:store.getState().app
-		});
-	}
 	getChildContext() {
 		return {
 			reactIconBase: {

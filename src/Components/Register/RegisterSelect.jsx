@@ -1,7 +1,7 @@
 import React from "react";
 import "./RegisterSelect.css";
 import Button from "../Widgets/Button";
-import enterpriseDesign from "../../assets/diseño-web-empresas.jpeg";
+import enterpriseDesign from "../../assets/diseño-web-empresas.jpg";
 import personalDesign from "../../assets/diseño-web-personal.jpg";
 
 let RegisterSelect = () =>{

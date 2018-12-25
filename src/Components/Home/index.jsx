@@ -70,7 +70,7 @@ class Home extends Component{
     componentDidMount() {
         window.onscroll = () => this.scrollTop();
     }
-    componentDidUnmount(){
+    componentWillUnmount(){
         window.onscroll = undefined;
     }
     render() {

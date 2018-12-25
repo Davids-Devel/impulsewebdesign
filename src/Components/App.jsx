@@ -5,12 +5,9 @@ import Home from "./Home/index";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
 import RegisterSelect from "./Register/RegisterSelect";
-import FirebaseManagement from "./FirebaseAuth/FirebaseUserManagement";
-import UserSuccess from "./FirebaseAuth/FirebaseUserSuccess";
 import UserConfig from "./User/UserConfig";
 import store from "../Store/store";
 import UserPage from "./User/UserPage";
-import {login} from "../Store/actionCreators";
 import NoMatch from "./NoMatch";
 import TemplateStore from "./TemplateStore";
 import {
@@ -61,10 +58,8 @@ class App extends Component {
 							<Route exact path="/register" component={RegisterSelect} />
 							<Route exact path="/register/personal" component={Register} />
 							<Route exact path="/register/enterprise" component={Register} />
-							<Route exact path={`/user-management`} component={FirebaseManagement} />
 							<Route path="/store" component={TemplateStore} />
 							<Route path="/user-config" component={UserConfig} />
-							<Route path = "/user-success" component={UserSuccess} />
 							<Route path={"/my-account"} component={UserPage}/>
 							<Route component={NoMatch} />
 						</Switch>

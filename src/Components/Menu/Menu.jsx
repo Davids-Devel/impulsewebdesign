@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 import bgmenu from "../../assets/background-menu.jpg";
 import { Link } from "react-router-dom";
 import store from "../../Store/store";
-import { MdMenu } from "react-icons/lib/md";
+import { MdMenu } from "react-icons/md";
 
 
 class Menu extends Component {

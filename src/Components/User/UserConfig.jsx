@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import "./UserConfig.css";
-import  Input  from "muicss/lib/react/input";
+import Input from "muicss/lib/react/input";
 import Option from 'muicss/lib/react/option';
 import Select from 'muicss/lib/react/select';
-import { MdLockOutline, MdAccountCircle } from "react-icons/lib/md";
+import { MdLockOutline, MdAccountCircle } from "react-icons/md";
 import { PropTypes } from "prop-types";
 import store from "../../Store/store"
 import Toast from "../Widgets/Toast";
